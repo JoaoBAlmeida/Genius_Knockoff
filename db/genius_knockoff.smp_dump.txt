@@ -1,0 +1,8 @@
+
+State Machine - |genius_knockoff|difficulty
+Name difficulty.hell difficulty.extreme difficulty.hard difficulty.medium difficulty.easy 
+difficulty.easy 0 0 0 0 0 
+difficulty.medium 0 0 0 1 1 
+difficulty.hard 0 0 1 0 1 
+difficulty.extreme 0 1 0 0 1 
+difficulty.hell 1 0 0 0 1 
