@@ -22,7 +22,7 @@ architecture game of genius_knockoff is
 	signal led_on : bool := false;
 	
 	--Dependent on difficulty
-	impure function array_range return integer is
+	impure function array_range return natural is
 	begin
 		case difficulty is
 			when easy =>
@@ -36,6 +36,14 @@ architecture game of genius_knockoff is
 			when hell =>
 				return 25;
 		end case;
+	end function;
+	
+	--Array return
+	impure function array_value(i : integer) return natural is
+		variable returnable : natural; 
+	begin
+		returnable := gameleds(i);
+		return returnable;
 	end function;
 	
 	--Procedure to increment difficulty
@@ -57,6 +65,18 @@ architecture game of genius_knockoff is
 		
 	end procedure;
 	
+	--Procedure to set wrong choice in game
+	procedure wrong_choice is
+	begin
+		
+		led0 <= '1';
+		led1 <= '1';
+		led2 <= '1';
+		led3 <= '1';
+		led_on <= true;
+		
+	end procedure;
+		
 begin
 	process(clk, rst)
 		variable i : integer := 0;
@@ -112,6 +132,7 @@ begin
 				end if;
 				
 			--Section User Input
+			-- Section for User input
 			else
 				size := array_range;
 				
@@ -125,33 +146,55 @@ begin
 						
 				if i < size then -- While still not on size, play the game
 					if btn0 = '1' then
-						-- Insert here function to check if correct (Turn correct led on, wait sometime, turn led off)
-						-- If wrong, insert here function to say user was wrong (Turn all led on, wait, turn all led off)
-						
-						--!!DEBUGGING!!--
-						led0 <= '1';
-						led_on <= true;
-						--!!DEBUGGING!!--
+					
+						if array_value(i) = 1 then -- Correct Button Pressed
+							led0 <= '1';
+							led_on <= true;
+						else -- Wrong Button Pressed
+							wrong_choice;
+						end if;
 						
 						i := i + 1; -- To keep loop running
+						
 					elsif btn1 = '1' then
-						-- Insert here function to check if correct (Turn correct led on, wait sometime, turn led off)
-						-- If wrong, insert here function to say user was wrong (Turn all led on, wait, turn all led off)
+					
+						if array_value(i) = 2 then -- Correct Button Pressed
+							led1 <= '1';
+							led_on <= true;
+						else -- Wrong Button Pressed
+							wrong_choice;
+						end if;
+						
 						i := i + 1; -- To keep loop running
+						
 					elsif btn2 = '1' then
-						-- Insert here function to check if correct (Turn correct led on, wait sometime, turn led off)
-						-- If wrong, insert here function to say user was wrong (Turn all led on, wait, turn all led off)
+					
+						if array_value(i) = 3 then -- Correct Button Pressed
+							led2 <= '1';
+							led_on <= true;
+						else -- Wrong Button Pressed
+							wrong_choice;
+						end if;
+						
 						i := i + 1; -- To keep loop running
+						
 					elsif btn3 = '1' then
-						-- Insert here function to check if correct (Turn correct led on, wait sometime, turn led off)
-						-- If wrong, insert here function to say user was wrong (Turn all led on, wait, turn all led off)
+					
+						if array_value(i) = 4 then -- Correct Button Pressed
+							led3 <= '1';
+							led_on <= true;
+						else -- Wrong Button Pressed
+							wrong_choice;
+						end if;
+						
 						i := i + 1; -- To keep loop running
+						
 					end if;
 					
 				else -- Reset variable for control and gamemode
 					i := 0;
-					usermode <= false;
-					change_difficulty;
+					usermode <= false; -- Reset game to LedMode
+					change_difficulty; -- Increment Difficulty
 				end if;
 			end if;
 		end if;

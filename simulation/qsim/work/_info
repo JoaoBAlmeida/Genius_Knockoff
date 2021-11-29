@@ -4,22 +4,22 @@ K3
 cModel Technology
 Z0 dC:\Users\jpbar\OneDrive\Documentos\Senai\DLP\Quartus_Codes\Genius_Knockoff\simulation\qsim
 vgenius_knockoff
-Z1 Iz^jM<hSfQjHAWh=J58<g02
-Z2 V:]`;Z]Deig0gY3L=<:k5L3
-Z3 dC:\Users\jpbar\OneDrive\Documentos\Senai\DLP\Quartus_Codes\Genius_Knockoff\simulation\qsim
-Z4 w1637972206
-Z5 8genius_knockoff.vo
-Z6 Fgenius_knockoff.vo
+Z1 !s100 ^7n8:o_X4][Lec55UK=T81
+Z2 IT0A_WPfSV;0HdBCDe<BB31
+Z3 V:]`;Z]Deig0gY3L=<:k5L3
+Z4 dC:\Users\jpbar\OneDrive\Documentos\Senai\DLP\Quartus_Codes\Genius_Knockoff\simulation\qsim
+Z5 w1638221293
+Z6 8genius_knockoff.vo
+Z7 Fgenius_knockoff.vo
 L0 31
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 !s90 -work|work|genius_knockoff.vo|
-Z9 o-work work -O0
+Z9 !s90 -work|work|genius_knockoff.vo|
+Z10 o-work work -O0
 !i10b 1
-Z10 !s100 a]>ZOo>1QGW3]P=Sh]PYP3
 !s85 0
-Z11 !s108 1637972208.719000
+Z11 !s108 1638221295.575000
 Z12 !s107 genius_knockoff.vo|
 !s101 -O0
 vgenius_knockoff_vlg_check_tst
@@ -27,31 +27,31 @@ vgenius_knockoff_vlg_check_tst
 Z13 !s100 niYD?ZRnDK3jn:M<SQ[N@0
 Z14 I@Y_J=o:[XVP0ea^iEJ7Go3
 Z15 Vc?2hi]kRXdg;OMHQJLD7G2
-R3
-Z16 w1637972204
+R4
+Z16 w1638221291
 Z17 8genius_knockoff.vt
 Z18 Fgenius_knockoff.vt
 L0 67
-R7
+R8
 r1
 !s85 0
 31
-Z19 !s108 1637972209.164000
+Z19 !s108 1638221295.925000
 Z20 !s107 genius_knockoff.vt|
 Z21 !s90 -work|work|genius_knockoff.vt|
 !s101 -O0
-R9
+R10
 vgenius_knockoff_vlg_sample_tst
 !i10b 1
 Z22 !s100 >nEHn]8WTizz:e6jl]W1U1
 Z23 IGGa4XcJb<hEklLonnSGXV1
 Z24 V29L8iLE^7RJEVl[fhnXBW2
-R3
+R4
 R16
 R17
 R18
 L0 29
-R7
+R8
 r1
 !s85 0
 31
@@ -59,18 +59,18 @@ R19
 R20
 R21
 !s101 -O0
-R9
+R10
 vgenius_knockoff_vlg_vec_tst
 !i10b 1
-Z25 !s100 JQ;;MD[kPMHl1jiPA?IVG2
-Z26 IF1@m^g6>KhfV[]e2[J>dk1
-Z27 V3n:EMl8f7C8_Zj_7R>:Gl2
-R3
+!s100 j^9B@l>f<::=?H=EL@bj92
+Ic?iJ3mAgSJhzz?fE8];ck1
+Z25 V3n:EMl8f7C8_Zj_7R>:Gl2
+R4
 R16
 R17
 R18
-Z28 L0 626
-R7
+Z26 L0 626
+R8
 r1
 !s85 0
 31
@@ -78,4 +78,4 @@ R19
 R20
 R21
 !s101 -O0
-R9
+R10

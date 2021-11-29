@@ -952,57 +952,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|devoe")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|led_on~q")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|led0~0_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|difficulty.easy~q")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|led_on~0_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|led_on~1_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|difficulty.easy~0_combout")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|led0~1_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1812,7 +1762,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|clk~input_o")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~21_sumout")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~1_sumout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1833,6 +1783,26 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|difficulty.medium~0_combout")
 }
 
 SIGNAL("genius_knockoff_vlg_vec_tst|i1|rst~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~2")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~17_sumout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1892,107 +1862,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|LessThan0~8_combout")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|difficulty~9_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|difficulty.medium~q")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|difficulty.hard~q")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|difficulty.extreme~q")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|difficulty.hell~q")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|LessThan0~0_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|LessThan0~1_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|LessThan0~2_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|LessThan0~3_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|LessThan0~9_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|btn0~input_o")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|btn2~input_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2012,7 +1882,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|btn3~input_o")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|btn2~input_o")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|btn0~input_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2022,7 +1892,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|btn2~input_o")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|btn1~input_o")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|i[11]~1_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2032,37 +1902,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|btn1~input_o")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|i[7]~0_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|i[0]~1_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~22")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~17_sumout")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|i[0]~2_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2133,6 +1973,86 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~9_sumout")
 }
 
 SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~10")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~125_sumout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~126")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~121_sumout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~122")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~85_sumout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~86")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~89_sumout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~90")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2362,6 +2282,26 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~50")
 	PARENT = "";
 }
 
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~81_sumout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~82")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
 SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~57_sumout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
@@ -2433,26 +2373,6 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~69_sumout")
 }
 
 SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~70")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~89_sumout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~90")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2582,7 +2502,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~118")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~125_sumout")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~21_sumout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2592,7 +2512,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~125_sumout")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~126")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|difficulty~9_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2602,7 +2522,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~126")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~121_sumout")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|difficulty.medium~q")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2612,7 +2532,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~121_sumout")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~122")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|difficulty.hard~q")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2622,7 +2542,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~122")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~81_sumout")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|difficulty.extreme~q")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2632,7 +2552,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~81_sumout")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~82")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|difficulty.hell~q")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2642,7 +2562,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~82")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~85_sumout")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|difficulty.easy~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2652,7 +2572,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~85_sumout")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~86")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|difficulty.easy~q")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2662,7 +2582,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~86")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~1_sumout")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|LessThan0~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2672,7 +2592,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|Add0~1_sumout")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|Mux2~0_combout")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|LessThan0~1_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2682,7 +2602,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|Mux2~0_combout")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|Mux1~0_combout")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|LessThan0~2_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2692,7 +2612,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|Mux1~0_combout")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|Mux0~0_combout")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|LessThan0~3_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2702,7 +2622,37 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|Mux0~0_combout")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|led0~1_combout")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|LessThan0~9_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|Mux5~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|Mux6~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|btn1~input_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2722,7 +2672,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|led0~2_combout")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|led0~reg0_q")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|led0~3_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2732,17 +2682,7 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|led0~reg0_q")
 	PARENT = "";
 }
 
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|led1~0_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("genius_knockoff_vlg_vec_tst|i1|led1~1_combout")
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|i[11]~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2772,7 +2712,107 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|usermode~q")
 	PARENT = "";
 }
 
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|led_on~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|led_on~1_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|led_on~q")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|led0~4_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|led0~5_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|led0~reg0_q")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|led1~1_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
 SIGNAL("genius_knockoff_vlg_vec_tst|i1|led1~2_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|led1~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|Mux4~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|led1~4_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2792,6 +2832,36 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|led1~reg0_q")
 	PARENT = "";
 }
 
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|led0~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|led2~1_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|led2~2_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
 SIGNAL("genius_knockoff_vlg_vec_tst|i1|led2~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
@@ -2802,7 +2872,37 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|led2~0_combout")
 	PARENT = "";
 }
 
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|led2~3_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
 SIGNAL("genius_knockoff_vlg_vec_tst|i1|led2~reg0_q")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|led1~3_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|Mux3~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -2823,6 +2923,16 @@ SIGNAL("genius_knockoff_vlg_vec_tst|i1|led3~0_combout")
 }
 
 SIGNAL("genius_knockoff_vlg_vec_tst|i1|led3~1_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("genius_knockoff_vlg_vec_tst|i1|led3~2_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -3178,7 +3288,9 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|btn1")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
+		LEVEL 0 FOR 210.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 180.0;
 	}
 }
 
@@ -3189,7 +3301,9 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|btn2")
 		REPEAT = 1;
 		LEVEL 0 FOR 170.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 220.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 160.0;
 	}
 }
 
@@ -3198,9 +3312,9 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|btn3")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 180.0;
+		LEVEL 0 FOR 190.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 210.0;
+		LEVEL 0 FOR 200.0;
 	}
 }
 
@@ -3986,7 +4100,13 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|led0")
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 130.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 230.0;
+		LEVEL 0 FOR 90.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 40.0;
 	}
 }
 
@@ -3997,7 +4117,13 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|led1")
 		REPEAT = 1;
 		LEVEL 0 FOR 50.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 340.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 60.0;
 	}
 }
 
@@ -4010,7 +4136,17 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|led2")
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 330.0;
+		LEVEL 0 FOR 110.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
 	}
 }
 
@@ -4021,7 +4157,13 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|led3")
 		REPEAT = 1;
 		LEVEL 0 FOR 40.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 350.0;
+		LEVEL 0 FOR 150.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 70.0;
 	}
 }
 
@@ -4167,62 +4309,19 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|devoe")
 	}
 }
 
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led_on~q")
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led0~1_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 160.0;
-		LEVEL 1 FOR 10.0;
+		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 230.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led0~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|difficulty.easy~q")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led_on~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 70.0;
-		LEVEL 1 FOR 330.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led_on~1_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 150.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 240.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|difficulty.easy~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 400.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
 	}
 }
 
@@ -4235,7 +4334,13 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led0~output_o")
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 130.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 230.0;
+		LEVEL 0 FOR 90.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 40.0;
 	}
 }
 
@@ -4246,7 +4351,13 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led1~output_o")
 		REPEAT = 1;
 		LEVEL 0 FOR 50.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 340.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 60.0;
 	}
 }
 
@@ -4259,7 +4370,17 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led2~output_o")
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 330.0;
+		LEVEL 0 FOR 110.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
 	}
 }
 
@@ -4270,7 +4391,13 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led3~output_o")
 		REPEAT = 1;
 		LEVEL 0 FOR 40.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 350.0;
+		LEVEL 0 FOR 150.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 70.0;
 	}
 }
 
@@ -5037,7 +5164,7 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|clk~input_o")
 	}
 }
 
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~21_sumout")
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~1_sumout")
 {
 	NODE
 	{
@@ -5050,8 +5177,21 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~21_sumout")
 		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 90.0;
 		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 210.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 50.0;
 	}
 }
 
@@ -5060,7 +5200,8 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|difficulty.medium~0_combout")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 400.0;
+		LEVEL 1 FOR 250.0;
+		LEVEL 0 FOR 150.0;
 	}
 }
 
@@ -5071,6 +5212,60 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|rst~input_o")
 		REPEAT = 1;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 390.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~2")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 90.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~17_sumout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 90.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
 	}
 }
 
@@ -5119,102 +5314,27 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|LessThan0~8_combout")
 	}
 }
 
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|difficulty~9_combout")
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|btn2~input_o")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|difficulty.medium~q")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|difficulty.hard~q")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|difficulty.extreme~q")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|difficulty.hell~q")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|LessThan0~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 400.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|LessThan0~1_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 30.0;
+		LEVEL 0 FOR 170.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 90.0;
-		LEVEL 0 FOR 240.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|LessThan0~2_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|LessThan0~3_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 60.0;
+		LEVEL 0 FOR 50.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 330.0;
+		LEVEL 0 FOR 160.0;
 	}
 }
 
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|LessThan0~9_combout")
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|btn3~input_o")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 60.0;
+		LEVEL 0 FOR 190.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 330.0;
+		LEVEL 0 FOR 200.0;
 	}
 }
 
@@ -5229,52 +5349,26 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|btn0~input_o")
 	}
 }
 
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|btn3~input_o")
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|i[11]~1_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 180.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 210.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|btn2~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 170.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 220.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|btn1~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|i[7]~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 70.0;
-		LEVEL 1 FOR 80.0;
+		LEVEL 1 FOR 150.0;
 		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 210.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 160.0;
 	}
 }
 
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|i[0]~1_combout")
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|i[0]~2_combout")
 {
 	NODE
 	{
@@ -5284,41 +5378,14 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|i[0]~1_combout")
 		LEVEL 0 FOR 80.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 210.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~22")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 90.0;
-		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 210.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~17_sumout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 90.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 210.0;
+		LEVEL 1 FOR 130.0;
+		LEVEL 0 FOR 40.0;
 	}
 }
 
@@ -5329,8 +5396,13 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~18")
 		REPEAT = 1;
 		LEVEL 0 FOR 40.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 140.0;
-		LEVEL 1 FOR 210.0;
+		LEVEL 0 FOR 150.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 70.0;
 	}
 }
 
@@ -5341,8 +5413,11 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~13_sumout")
 		REPEAT = 1;
 		LEVEL 0 FOR 40.0;
 		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 120.0;
-		LEVEL 1 FOR 210.0;
+		LEVEL 0 FOR 130.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 80.0;
 	}
 }
 
@@ -5351,7 +5426,9 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~14")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
+		LEVEL 0 FOR 320.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 70.0;
 	}
 }
 
@@ -5360,7 +5437,9 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~5_sumout")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
+		LEVEL 0 FOR 320.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
 	}
 }
 
@@ -5383,6 +5462,78 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~9_sumout")
 }
 
 TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~10")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~125_sumout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~126")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~121_sumout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~122")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~85_sumout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~86")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~89_sumout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~90")
 {
 	NODE
 	{
@@ -5589,6 +5740,24 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~50")
 	}
 }
 
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~81_sumout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~82")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.0;
+	}
+}
+
 TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~57_sumout")
 {
 	NODE
@@ -5653,24 +5822,6 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~69_sumout")
 }
 
 TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~70")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~89_sumout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~90")
 {
 	NODE
 	{
@@ -5787,7 +5938,7 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~118")
 	}
 }
 
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~125_sumout")
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~21_sumout")
 {
 	NODE
 	{
@@ -5796,7 +5947,28 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~125_sumout")
 	}
 }
 
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~126")
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|difficulty~9_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 240.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 150.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|difficulty.medium~q")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 250.0;
+		LEVEL 1 FOR 150.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|difficulty.hard~q")
 {
 	NODE
 	{
@@ -5805,7 +5977,7 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~126")
 	}
 }
 
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~121_sumout")
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|difficulty.extreme~q")
 {
 	NODE
 	{
@@ -5814,7 +5986,7 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~121_sumout")
 	}
 }
 
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~122")
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|difficulty.hell~q")
 {
 	NODE
 	{
@@ -5823,64 +5995,103 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~122")
 	}
 }
 
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~81_sumout")
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|difficulty.easy~0_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
+		LEVEL 1 FOR 400.0;
 	}
 }
 
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~82")
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|difficulty.easy~q")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
+		LEVEL 0 FOR 250.0;
+		LEVEL 1 FOR 150.0;
 	}
 }
 
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~85_sumout")
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|LessThan0~0_combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~86")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Add0~1_sumout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Mux2~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
+		LEVEL 1 FOR 250.0;
+		LEVEL 0 FOR 80.0;
 		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 130.0;
-		LEVEL 0 FOR 220.0;
+		LEVEL 0 FOR 40.0;
 	}
 }
 
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Mux1~0_combout")
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|LessThan0~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 90.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 40.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|LessThan0~2_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 250.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 40.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|LessThan0~3_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 170.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 40.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|LessThan0~9_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 170.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 40.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Mux5~0_combout")
 {
 	NODE
 	{
@@ -5891,35 +6102,45 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Mux1~0_combout")
 		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 100.0;
 		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 210.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Mux0~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 30.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 140.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 210.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led0~1_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
 		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 60.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Mux6~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 130.0;
 		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 40.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|btn1~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 210.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 240.0;
+		LEVEL 0 FOR 180.0;
 	}
 }
 
@@ -5928,10 +6149,141 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led0~2_combout")
 	NODE
 	{
 		REPEAT = 1;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 140.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 40.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led0~3_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 190.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 200.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|i[11]~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 170.0;
+		LEVEL 0 FOR 120.0;
+		LEVEL 1 FOR 40.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|usermode~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 180.0;
+		LEVEL 0 FOR 110.0;
+		LEVEL 1 FOR 50.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|usermode~q")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 180.0;
+		LEVEL 0 FOR 110.0;
+		LEVEL 1 FOR 40.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led_on~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 180.0;
+		LEVEL 0 FOR 110.0;
+		LEVEL 1 FOR 40.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led_on~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 150.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 160.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led_on~q")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 150.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led0~4_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 400.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led0~5_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
 		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 130.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 240.0;
+		LEVEL 0 FOR 90.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
 	}
 }
 
@@ -5944,23 +6296,13 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led0~reg0_q")
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 130.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 230.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led1~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 20.0;
+		LEVEL 0 FOR 90.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 210.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 40.0;
 	}
 }
 
@@ -5969,29 +6311,7 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led1~1_combout")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 350.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|usermode~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 60.0;
-		LEVEL 1 FOR 340.0;
-	}
-}
-
-TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|usermode~q")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 70.0;
-		LEVEL 1 FOR 330.0;
+		LEVEL 1 FOR 400.0;
 	}
 }
 
@@ -6000,11 +6320,62 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led1~2_combout")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 60.0;
-		LEVEL 0 FOR 90.0;
+		LEVEL 0 FOR 210.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 230.0;
+		LEVEL 0 FOR 180.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led1~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 150.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 70.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Mux4~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 140.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 40.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led1~4_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 70.0;
 	}
 }
 
@@ -6015,7 +6386,54 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led1~reg0_q")
 		REPEAT = 1;
 		LEVEL 0 FOR 50.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 340.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 60.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led0~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 40.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led2~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 400.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led2~2_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 170.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 160.0;
 	}
 }
 
@@ -6028,7 +6446,40 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led2~0_combout")
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 340.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 60.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led2~3_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 110.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 60.0;
 	}
 }
 
@@ -6041,7 +6492,55 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led2~reg0_q")
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 330.0;
+		LEVEL 0 FOR 110.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led1~3_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 40.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|Mux3~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 140.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 40.0;
 	}
 }
 
@@ -6052,9 +6551,11 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led3~0_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 30.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 140.0;
+		LEVEL 0 FOR 230.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 210.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 80.0;
 	}
 }
 
@@ -6063,9 +6564,24 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led3~1_combout")
 	NODE
 	{
 		REPEAT = 1;
+		LEVEL 0 FOR 400.0;
+	}
+}
+
+TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led3~2_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
 		LEVEL 0 FOR 30.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 360.0;
+		LEVEL 0 FOR 150.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 80.0;
 	}
 }
 
@@ -6076,7 +6592,13 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|led3~reg0_q")
 		REPEAT = 1;
 		LEVEL 0 FOR 40.0;
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 350.0;
+		LEVEL 0 FOR 150.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 70.0;
 	}
 }
 
@@ -6337,7 +6859,9 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|i[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 400.0;
+		LEVEL 0 FOR 330.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 40.0;
 	}
 }
 
@@ -6348,7 +6872,11 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|i[2]")
 		REPEAT = 1;
 		LEVEL 0 FOR 50.0;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 330.0;
+		LEVEL 0 FOR 150.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 70.0;
 	}
 }
 
@@ -6360,7 +6888,14 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|i[1]")
 		LEVEL 0 FOR 30.0;
 		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 130.0;
-		LEVEL 1 FOR 220.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 40.0;
 	}
 }
 
@@ -6377,8 +6912,21 @@ TRANSITION_LIST("genius_knockoff_vlg_vec_tst|i1|i[0]")
 		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 90.0;
 		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
 		LEVEL 0 FOR 10.0;
-		LEVEL 1 FOR 210.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 50.0;
 	}
 }
 
@@ -7212,7 +7760,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led_on~q";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led0~1_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 92;
@@ -7221,7 +7769,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led0~0_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led0~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 93;
@@ -7230,7 +7778,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|difficulty.easy~q";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led1~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 94;
@@ -7239,7 +7787,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led_on~0_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led2~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 95;
@@ -7248,7 +7796,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led_on~1_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led3~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 96;
@@ -7257,7 +7805,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|difficulty.easy~0_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[24][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 97;
@@ -7266,7 +7814,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led0~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[24][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 98;
@@ -7275,7 +7823,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led1~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[24][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 99;
@@ -7284,7 +7832,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led2~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[23][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 100;
@@ -7293,7 +7841,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led3~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[23][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 101;
@@ -7302,7 +7850,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[24][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[23][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 102;
@@ -7311,7 +7859,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[24][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[22][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 103;
@@ -7320,7 +7868,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[24][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[22][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 104;
@@ -7329,7 +7877,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[23][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[22][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 105;
@@ -7338,7 +7886,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[23][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[21][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 106;
@@ -7347,7 +7895,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[23][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[21][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 107;
@@ -7356,7 +7904,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[22][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[21][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 108;
@@ -7365,7 +7913,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[22][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[20][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 109;
@@ -7374,7 +7922,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[22][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[20][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 110;
@@ -7383,7 +7931,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[21][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[20][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 111;
@@ -7392,7 +7940,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[21][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[19][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 112;
@@ -7401,7 +7949,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[21][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[19][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 113;
@@ -7410,7 +7958,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[20][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[19][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 114;
@@ -7419,7 +7967,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[20][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[18][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 115;
@@ -7428,7 +7976,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[20][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[18][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 116;
@@ -7437,7 +7985,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[19][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[18][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 117;
@@ -7446,7 +7994,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[19][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[17][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 118;
@@ -7455,7 +8003,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[19][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[17][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 119;
@@ -7464,7 +8012,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[18][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[17][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 120;
@@ -7473,7 +8021,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[18][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[16][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 121;
@@ -7482,7 +8030,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[18][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[16][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 122;
@@ -7491,7 +8039,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[17][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[16][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 123;
@@ -7500,7 +8048,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[17][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[15][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 124;
@@ -7509,7 +8057,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[17][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[15][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 125;
@@ -7518,7 +8066,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[16][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[15][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 126;
@@ -7527,7 +8075,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[16][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[14][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 127;
@@ -7536,7 +8084,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[16][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[14][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 128;
@@ -7545,7 +8093,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[15][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[14][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 129;
@@ -7554,7 +8102,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[15][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[13][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 130;
@@ -7563,7 +8111,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[15][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[13][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 131;
@@ -7572,7 +8120,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[14][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[13][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 132;
@@ -7581,7 +8129,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[14][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[12][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 133;
@@ -7590,7 +8138,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[14][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[12][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 134;
@@ -7599,7 +8147,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[13][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[12][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 135;
@@ -7608,7 +8156,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[13][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[11][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 136;
@@ -7617,7 +8165,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[13][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[11][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 137;
@@ -7626,7 +8174,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[12][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[11][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 138;
@@ -7635,7 +8183,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[12][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[10][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 139;
@@ -7644,7 +8192,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[12][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[10][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 140;
@@ -7653,7 +8201,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[11][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[10][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 141;
@@ -7662,7 +8210,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[11][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[9][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 142;
@@ -7671,7 +8219,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[11][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[9][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 143;
@@ -7680,7 +8228,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[10][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[9][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 144;
@@ -7689,7 +8237,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[10][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[8][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 145;
@@ -7698,7 +8246,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[10][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[8][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 146;
@@ -7707,7 +8255,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[9][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[8][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 147;
@@ -7716,7 +8264,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[9][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[7][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 148;
@@ -7725,7 +8273,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[9][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[7][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 149;
@@ -7734,7 +8282,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[8][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[7][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 150;
@@ -7743,7 +8291,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[8][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[6][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 151;
@@ -7752,7 +8300,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[8][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[6][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 152;
@@ -7761,7 +8309,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[7][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[6][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 153;
@@ -7770,7 +8318,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[7][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[5][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 154;
@@ -7779,7 +8327,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[7][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[5][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 155;
@@ -7788,7 +8336,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[6][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[5][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 156;
@@ -7797,7 +8345,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[6][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[4][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 157;
@@ -7806,7 +8354,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[6][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[4][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 158;
@@ -7815,7 +8363,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[5][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[4][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 159;
@@ -7824,7 +8372,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[5][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[3][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 160;
@@ -7833,7 +8381,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[5][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[3][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 161;
@@ -7842,7 +8390,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[4][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[3][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 162;
@@ -7851,7 +8399,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[4][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[2][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 163;
@@ -7860,7 +8408,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[4][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[2][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 164;
@@ -7869,7 +8417,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[3][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[2][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 165;
@@ -7878,7 +8426,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[3][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[1][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 166;
@@ -7887,7 +8435,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[3][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[1][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 167;
@@ -7896,7 +8444,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[2][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[1][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 168;
@@ -7905,7 +8453,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[2][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[0][0]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 169;
@@ -7914,7 +8462,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[2][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[0][1]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 170;
@@ -7923,7 +8471,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[1][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[0][2]~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 171;
@@ -7932,7 +8480,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[1][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|clk~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 172;
@@ -7941,7 +8489,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[1][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~1_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 173;
@@ -7950,7 +8498,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[0][0]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|difficulty.medium~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 174;
@@ -7959,7 +8507,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[0][1]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|rst~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 175;
@@ -7968,7 +8516,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|arrayed[0][2]~output_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~2";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 176;
@@ -7977,7 +8525,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|clk~input_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~17_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 177;
@@ -7986,7 +8534,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~21_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~4_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 178;
@@ -7995,7 +8543,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|difficulty.medium~0_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~5_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 179;
@@ -8004,7 +8552,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|rst~input_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~6_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 180;
@@ -8013,7 +8561,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~4_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~7_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 181;
@@ -8022,7 +8570,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~5_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~8_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 182;
@@ -8031,7 +8579,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~6_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|btn2~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 183;
@@ -8040,7 +8588,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~7_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|btn3~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 184;
@@ -8049,7 +8597,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~8_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|btn0~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 185;
@@ -8058,7 +8606,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|difficulty~9_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[11]~1_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 186;
@@ -8067,7 +8615,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|difficulty.medium~q";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[0]~2_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 187;
@@ -8076,7 +8624,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|difficulty.hard~q";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~18";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 188;
@@ -8085,7 +8633,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|difficulty.extreme~q";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~13_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 189;
@@ -8094,7 +8642,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|difficulty.hell~q";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~14";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 190;
@@ -8103,7 +8651,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~0_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~5_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 191;
@@ -8112,7 +8660,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~1_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~6";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 192;
@@ -8121,7 +8669,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~2_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~9_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 193;
@@ -8130,7 +8678,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~3_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~10";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 194;
@@ -8139,7 +8687,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~9_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~125_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 195;
@@ -8148,7 +8696,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|btn0~input_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~126";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 196;
@@ -8157,7 +8705,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|btn3~input_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~121_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 197;
@@ -8166,7 +8714,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|btn2~input_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~122";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 198;
@@ -8175,7 +8723,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|btn1~input_o";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~85_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 199;
@@ -8184,7 +8732,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[7]~0_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~86";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 200;
@@ -8193,7 +8741,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[0]~1_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~89_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 201;
@@ -8202,7 +8750,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~22";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~90";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 202;
@@ -8211,7 +8759,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~17_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~93_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 203;
@@ -8220,7 +8768,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~18";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~94";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 204;
@@ -8229,7 +8777,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~13_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~101_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 205;
@@ -8238,7 +8786,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~14";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~102";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 206;
@@ -8247,7 +8795,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~5_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~97_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 207;
@@ -8256,7 +8804,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~6";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~98";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 208;
@@ -8265,7 +8813,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~9_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~29_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 209;
@@ -8274,7 +8822,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~10";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~30";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 210;
@@ -8283,7 +8831,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~93_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~25_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 211;
@@ -8292,7 +8840,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~94";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~26";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 212;
@@ -8301,7 +8849,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~101_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~33_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 213;
@@ -8310,7 +8858,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~102";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~34";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 214;
@@ -8319,7 +8867,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~97_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~37_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 215;
@@ -8328,7 +8876,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~98";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~38";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 216;
@@ -8337,7 +8885,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~29_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~41_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 217;
@@ -8346,7 +8894,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~30";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~42";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 218;
@@ -8355,7 +8903,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~25_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~45_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 219;
@@ -8364,7 +8912,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~26";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~46";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 220;
@@ -8373,7 +8921,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~33_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~53_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 221;
@@ -8382,7 +8930,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~34";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~54";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 222;
@@ -8391,7 +8939,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~37_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~49_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 223;
@@ -8400,7 +8948,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~38";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~50";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 224;
@@ -8409,7 +8957,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~41_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~81_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 225;
@@ -8418,7 +8966,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~42";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~82";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 226;
@@ -8427,7 +8975,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~45_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~57_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 227;
@@ -8436,7 +8984,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~46";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~58";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 228;
@@ -8445,7 +8993,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~53_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~61_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 229;
@@ -8454,7 +9002,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~54";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~62";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 230;
@@ -8463,7 +9011,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~49_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~65_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 231;
@@ -8472,7 +9020,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~50";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~66";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 232;
@@ -8481,7 +9029,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~57_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~69_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 233;
@@ -8490,7 +9038,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~58";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~70";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 234;
@@ -8499,7 +9047,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~61_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~77_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 235;
@@ -8508,7 +9056,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~62";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~78";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 236;
@@ -8517,7 +9065,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~65_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~73_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 237;
@@ -8526,7 +9074,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~66";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~74";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 238;
@@ -8535,7 +9083,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~69_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~105_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 239;
@@ -8544,7 +9092,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~70";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~106";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 240;
@@ -8553,7 +9101,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~89_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~109_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 241;
@@ -8562,7 +9110,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~90";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~110";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 242;
@@ -8571,7 +9119,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~77_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~113_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 243;
@@ -8580,7 +9128,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~78";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~114";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 244;
@@ -8589,7 +9137,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~73_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~117_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 245;
@@ -8598,7 +9146,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~74";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~118";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 246;
@@ -8607,7 +9155,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~105_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~21_sumout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 247;
@@ -8616,7 +9164,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~106";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|difficulty~9_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 248;
@@ -8625,7 +9173,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~109_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|difficulty.medium~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 249;
@@ -8634,7 +9182,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~110";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|difficulty.hard~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 250;
@@ -8643,7 +9191,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~113_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|difficulty.extreme~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 251;
@@ -8652,7 +9200,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~114";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|difficulty.hell~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 252;
@@ -8661,7 +9209,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~117_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|difficulty.easy~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 253;
@@ -8670,7 +9218,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~118";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|difficulty.easy~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 254;
@@ -8679,7 +9227,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~125_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 255;
@@ -8688,7 +9236,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~126";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~1_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 256;
@@ -8697,7 +9245,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~121_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~2_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 257;
@@ -8706,7 +9254,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~122";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~3_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 258;
@@ -8715,7 +9263,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~81_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|LessThan0~9_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 259;
@@ -8724,7 +9272,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~82";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Mux5~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 260;
@@ -8733,7 +9281,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~85_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Mux6~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 261;
@@ -8742,7 +9290,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~86";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|btn1~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 262;
@@ -8751,7 +9299,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Add0~1_sumout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led0~2_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 263;
@@ -8760,7 +9308,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Mux2~0_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led0~3_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 264;
@@ -8769,7 +9317,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Mux1~0_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[11]~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 265;
@@ -8778,7 +9326,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Mux0~0_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|usermode~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 266;
@@ -8787,7 +9335,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led0~1_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|usermode~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 267;
@@ -8796,7 +9344,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led0~2_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led_on~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 268;
@@ -8805,7 +9353,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led0~reg0_q";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led_on~1_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 269;
@@ -8814,7 +9362,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led1~0_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led_on~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 270;
@@ -8823,7 +9371,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led1~1_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led0~4_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 271;
@@ -8832,7 +9380,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|usermode~0_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led0~5_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 272;
@@ -8841,7 +9389,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|usermode~q";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led0~reg0_q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 273;
@@ -8850,7 +9398,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led1~2_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led1~1_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 274;
@@ -8859,7 +9407,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led1~reg0_q";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led1~2_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 275;
@@ -8868,7 +9416,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led2~0_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led1~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 276;
@@ -8877,7 +9425,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led2~reg0_q";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Mux4~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 277;
@@ -8886,7 +9434,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led3~0_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led1~4_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 278;
@@ -8895,7 +9443,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led3~1_combout";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led1~reg0_q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 279;
@@ -8904,7 +9452,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led3~reg0_q";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led0~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 280;
@@ -8913,7 +9461,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[31]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led2~1_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 281;
@@ -8922,7 +9470,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[30]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led2~2_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 282;
@@ -8931,7 +9479,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[29]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led2~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 283;
@@ -8940,7 +9488,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[28]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led2~3_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 284;
@@ -8949,7 +9497,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[27]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led2~reg0_q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 285;
@@ -8958,7 +9506,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[26]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led1~3_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 286;
@@ -8967,7 +9515,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[25]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|Mux3~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 287;
@@ -8976,7 +9524,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[24]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led3~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 288;
@@ -8985,7 +9533,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[23]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led3~1_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 289;
@@ -8994,7 +9542,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[22]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led3~2_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 290;
@@ -9003,7 +9551,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[21]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|led3~reg0_q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 291;
@@ -9012,7 +9560,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[20]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[31]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 292;
@@ -9021,7 +9569,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[19]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[30]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 293;
@@ -9030,7 +9578,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[18]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[29]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 294;
@@ -9039,7 +9587,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[17]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[28]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 295;
@@ -9048,7 +9596,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[16]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[27]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 296;
@@ -9057,7 +9605,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[15]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[26]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 297;
@@ -9066,7 +9614,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[14]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[25]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 298;
@@ -9075,7 +9623,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[13]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[24]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 299;
@@ -9084,7 +9632,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[12]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[23]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 300;
@@ -9093,7 +9641,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[11]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[22]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 301;
@@ -9102,7 +9650,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[10]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[21]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 302;
@@ -9111,7 +9659,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[9]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[20]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 303;
@@ -9120,7 +9668,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[8]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[19]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 304;
@@ -9129,7 +9677,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[7]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[18]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 305;
@@ -9138,7 +9686,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[6]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[17]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 306;
@@ -9147,7 +9695,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[5]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[16]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 307;
@@ -9156,7 +9704,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[4]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[15]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 308;
@@ -9165,7 +9713,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[3]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[14]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 309;
@@ -9174,7 +9722,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[2]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[13]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 310;
@@ -9183,7 +9731,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[1]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[12]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 311;
@@ -9192,10 +9740,109 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[0]";
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[11]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 312;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[10]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 313;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[9]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 314;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[8]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 315;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[7]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 316;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[6]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 317;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[5]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 318;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[4]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 319;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 320;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 321;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 322;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "genius_knockoff_vlg_vec_tst|i1|i[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 323;
 	TREE_LEVEL = 0;
 }
 ;
