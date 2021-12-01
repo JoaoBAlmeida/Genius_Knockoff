@@ -21,5 +21,5 @@
 # Loading work.genius_knockoff_vlg_check_tst
 # Loading altera_ver.PRIM_GDFF_LOW
 # Simulation passed !
-# ** Note: $finish    : genius_knockoff.vt(622)
+# ** Note: $finish    : genius_knockoff.vt(247)
 #    Time: 400 ns  Iteration: 0  Instance: /genius_knockoff_vlg_vec_tst/tb_out
